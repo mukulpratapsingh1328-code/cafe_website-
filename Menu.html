@@ -1,0 +1,140 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Menu</title>
+   <script src="script.js"></script>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <img src="logo.png" alt="Delulu Cafe Logo" width="100">
+        <h1>The Delulu Cafe Menu</h1>
+        <p>Welcome to Delulu Cafe! Enjoy our delicious coffee and pastries.</p>
+        <a href="cart.html">
+    <button>🛒 View Cart</button>
+</a>
+    </header>
+    <h2>Daily Specials</h2>
+    <ul>
+        <li>Espresso - ₹150.00</li>
+        <li>Cappuccino - ₹200.00</li>
+        <li>Latte - ₹250.00</li>
+        </ul>
+        <h2>The Menu</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Image</th>
+                <th>Order</th>
+            </tr>
+            <tr>
+                <td>Espresso</td>
+                <td>A strong and bold coffee made by forcing hot water through finely-ground coffee beans.</td>
+                <td>₹150.00</td>
+                <td><img src="espresso.jpg" alt="Espresso" width="100"></td>
+                <td><button onclick="orderItem('Espresso', 150)">Add</button></td>
+            </tr>
+            <tr>
+                <td>Cappuccino</td>
+                <td>A creamy coffee drink made with equal parts espresso, steamed milk, and milk foam.</td>
+                <td>₹200.00</td>
+                <td><img src="cappuccino.jpg" alt="Cappuccino" width="100"></td>
+                <td><button onclick="orderItem('Cappuccino', 200)">Add</button></td>
+            </tr>
+            <tr>
+                <td>Latte</td>
+                <td>A smooth and milky coffee drink made with espresso and steamed milk, topped with a small amount of foam.</td>
+                <td>₹250.00</td>
+                <td><img src="latte.jpg" alt="Latte" width="100"></td>
+                <td><button onclick="orderItem('Latte', 250)">Add</button></td>
+            </tr>
+            <tr>
+                <td>Classic Cold Coffee</td>
+                <td>A refreshing cold coffee drink made with strong brewed coffee and ice.</td>
+                <td>₹180.00</td>
+                <td><img src="classic_cold_coffee.jpg" alt="Classic Cold Coffee" width="100"></td>
+                <td><button onclick="orderItem('Classic Cold Coffee', 180)">Add</button></td>
+            </tr>
+            <tr>
+                <td> Pastry</td>
+                <td>A delicious pastry made with layers of flaky dough and sweet filling.</td>
+                <td>₹150.00</td>
+                <td><img src="pastry.jpg" alt="Pastry" width="100"></td>
+                <td><button onclick="orderItem('Pastry', 150)">Add</button></td>
+            </tr>
+            <tr> 
+                <td>Chocolate Croissant</td>
+                <td>A buttery and flaky croissant filled with rich chocolate.</td>
+                <td>₹120.00</td>
+                <td><img src="chocolate_croissant.jpg" alt="Chocolate Croissant" width="100"></td>
+                <td><button onclick="orderItem('Chocolate Croissant', 120)">Add</button></td>
+            </tr>
+            <tr>
+                <td>Blueberry Muffin</td>
+                <td>A soft and moist muffin filled with juicy blueberries.</td>
+                <td>₹100.00</td>
+                <td><img src="https://www.lifeasastrawberry.com/wp-content/uploads/2021/10/apple-butter-muffins-recipe-1.jpg" alt="Blueberry Muffin" width="100"></td>
+                <td><button onclick="orderItem('Blueberry Muffin', 100)">Add</button></td>
+            </tr>
+            <tr>
+                <td>Chocolate Chip Cookie</td>
+                <td>A classic cookie filled with chocolate chips, perfect for satisfying your sweet tooth.</td>
+                <td>₹80.00</td>
+                <td><img src="https://cdn.loveandlemons.com/wp-content/uploads/2024/08/chocolate-chip-cookie-recipe.jpg" alt="Chocolate Chip Cookie" width="100"></td>
+                <td><button onclick="orderItem('Chocolate Chip Cookie', 80)">Add</button></td>
+            </tr>
+            <tr>
+                <td>Pizza</td>
+                <td>A delicious pizza with a variety of toppings of mashroom, veggies, paneer, etc. </td>
+                    <td>₹500.00</td>
+                    <td><img src="https://www.recipetineats.com/tachyon/2020/05/Supreme-Pizza.jpg" alt="Pizza" width="100"></td>
+                    <td><button onclick="orderItem('Pizza', 500)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Sandwich</td>
+                    <td>A tasty sandwich made with fresh bread and a variety of fillings such as vegetables, cheese, and corns.</td>
+                    <td>₹150.00</td>
+                    <td><img src="https://static.toiimg.com/thumb/54714340.cms?imgsize=458099&width=800&height=800" alt="Sandwich" width="100"></td>  
+                    <td><button onclick="orderItem('Sandwich', 150)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>French Fries</td>
+                    <td>Crispy and golden French fries, perfect as a side dish or snack also available with various seasonings.</td>
+                    <td>₹120.00</td>
+                    <td><img src="https://cookingwithparita.com/wp-content/uploads/2022/10/image-of-baked-crispy-peri-peri-fries-recipe-2.jpg" alt="French Fries" width="100"></td>
+                    <td><button onclick="orderItem('French Fries', 120)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Chicken Wings</td>
+                    <td> Juicy and flavorful chicken wings, perfect for a delicious snack or appetizer.</td>
+                    <td>₹465.00</td>
+                    <td><img src="https://tastesbetterfromscratch.com/wp-content/uploads/2014/09/Baked-Chicken-Wings-3-500x500.jpg" alt="Chicken Wings" width="100"></td>
+                    <td><button onclick="orderItem('Chicken Wings', 465)">Add</button></td>
+                </tr>
+                <tr> 
+                    <td> White Sauce Pasta</td>
+                    <td>A classic Italian dish made with pasta and a White sauce, such as marin ara, Alfredo, or pesto.</td>            
+                    <td>₹565.00</td>
+                    <td><img src="https://i.ytimg.com/vi/iNmlxg-_wC4/oardefault.jpg?sqp=-oaymwEYCJUDENAFSFqQAgHyq4qpAwcIARUAAIhC&rs=AOn4CLBdqfUQ2AjRP7tMIcmzlSWhIriJ4Q" alt="Pasta" width="100"></td>
+                    <td><button onclick="orderItem('White Sauce Pasta', 565)">Add</button></td>
+                </tr>
+                   
+                
+           
+        </table> 
+      <footer>
+            <p>Address: 1287, sector 76, Noida, Uttar Pradesh 201301</p>
+            <p>Phone: +91-9876543210</p>
+            <p>Email: <a href="mailto:mukulpratapsingh1328@gmail.com"> Contact support</a></p>
+            <p>&copy; 2023 Delulu Cafe. All rights reserved.</p>
+        </footer>
+        
+        
+    </body>
+</html>
+
+   
